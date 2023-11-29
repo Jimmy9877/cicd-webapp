@@ -21,8 +21,11 @@ jobs:
         run: yarn lint
       - name: Echo
         run: echo "This job's status is ${{ job.status }}."
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
-          push: true
+          push: false
           tags: jimmy9877/webapp:latest
