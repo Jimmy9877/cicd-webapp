@@ -53,4 +53,4 @@ persistence
     process.exit(1);
   });
 
-console.log("Make a change to the sample app")
+console.log('Make a change to the sample app');
