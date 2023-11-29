@@ -52,3 +52,5 @@ persistence
     console.error(err);
     process.exit(1);
   });
+
+console.log("Make a change to the sample app")
