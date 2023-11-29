@@ -1,5 +1,5 @@
 ---
-run-name: Linting the code
+run-name: Build test and push code
 name: Build and test
 on:
   push:
